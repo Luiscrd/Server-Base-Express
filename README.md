@@ -25,5 +25,6 @@ nodemon dist/
 
 * TypeScript
 * Node
+* Nodemon
 * Express
-* cors
+* Cors
