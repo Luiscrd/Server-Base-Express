@@ -10,6 +10,6 @@ server.app.use('/', router);
 
 server.start(() => {
 
-    console.log(colors.blue(`[Indexts] Server run in ${BASE_URL}:${SERVER_PORT}`));
+    console.log(colors.blue('[Indexts] Server run Ok'));
     
 })
