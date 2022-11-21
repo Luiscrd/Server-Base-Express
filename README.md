@@ -5,6 +5,21 @@
 # Server-Base-Express
 Servidor base creado en expres para podert ser reutilizado según necesidades.
 
+Reconstuir módulos de Node
+```
+npm i
+```
+
+Generar el DIST
+```
+tsc -w
+```
+
+Levantar servidor
+```
+nodemon dist/
+```
+
 * TypeScript
 * Node
 * Express
