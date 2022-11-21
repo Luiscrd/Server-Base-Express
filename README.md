@@ -8,3 +8,4 @@ Servidor base creado en expres para podert ser reutilizado según necesidades.
 * TypeScript
 * Node
 * Express
+* cors
