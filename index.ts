@@ -1,10 +1,13 @@
-import { BASE_URL, SERVER_PORT } from './global/enviroment';
-import colors from 'colors'
+import colors from 'colors';
+import bodyParser from 'body-parser';
 import Server from './classes/server';
 import router from './routes/router';
 
-
 const server = new Server();
+
+server.app.use(bodyParser.urlencoded({ extended: true}));
+
+server.app.use(bodyParser.json());
 
 server.app.use('/', router);
 

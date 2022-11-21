@@ -10,10 +10,10 @@ router.get('/messages', (req: Request, res: Response) => {
 
     res.status(200).json({
         ok: true,
-        msg: 'Eeverything is fine'
+        msg: 'Eeverything is fine - GET'
     });
 
-    console.log(colors.green('[Routes/] GET: Request for "messages"'));
+    console.log(colors.green('[Routes/] GET: Response ok from /messages'));
 
 });
 
@@ -21,10 +21,10 @@ router.post('/messages', (req: Request, res: Response) => {
 
     res.status(200).json({
         ok: true,
-        msg: 'Eeverything is fine'
+        msg: 'Eeverything is fine - POST'
     });
 
-    console.log(colors.green('[Routes/] POST: Request for "messages"'));
+    console.log(colors.green('[Routes/] POST: Response ok from /messages'));
 
 });
 
